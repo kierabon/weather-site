@@ -11,12 +11,12 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container w-50 p-3">
-      <div class="container border border-3 p-10 m-4" id="background">
+      <div class="container border border-3 p-10 m-4 rounded-4" id="background">
         <div class="row justify-content-md mt-3">
           <div class="col col-lg-auto">
             <h1 id="city">City</h1>
@@ -27,7 +27,9 @@
               <input type="submit" value="search" />
             </form>
           </div>
+          <div class="col align-self-end" id="date">date</div>
         </div>
+
         <div class="row">
           <div class="col-lg-auto" id="temperature">78</div>
           <div class="col mt-4" id="units">C|F</div>

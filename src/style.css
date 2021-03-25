@@ -1,6 +1,3 @@
-h1 {
-  color: blue;
-}
 ul {
   list-style: none;
 }
@@ -8,5 +5,7 @@ ul {
   font-size: 60px;
 }
 #background {
-  background-image: url("src/images/sunny.jpg");
+  background-image: url("https://www.springfieldnewssun.com/resizer/R9f8qi_DOH_RF2Hz8Fy0PEXtnL0=/1066x600/cloudfront-us-east-1.images.arcpublishing.com/coxohio/L6BJ3DNILPCEN3WUJNS5NSTG2Q.jpg");
+  background-size: 550px;
+  height: 300px;
 }
