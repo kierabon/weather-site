@@ -11,6 +11,11 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -22,23 +27,32 @@
             <h1 id="city">City</h1>
           </div>
           <div class="col-md-auto mt-3">
-            <form>
+            <form id="search-box">
               <input type="text" placeholder="Enter City" id="search-input" />
               <input type="submit" value="search" />
             </form>
           </div>
-          <div class="col align-self-end" id="date">date</div>
+          <div class="col col-sm align-self-center">
+            <button
+              type="button"
+              class="btn btn-light btn-sm"
+              id="location-button"
+            >
+              Current Location
+            </button>
+          </div>
         </div>
 
         <div class="row">
           <div class="col-lg-auto" id="temperature">78</div>
           <div class="col mt-4" id="units">C|F</div>
+          <div class="col align-self-end" id="date">date</div>
         </div>
         <div class="row" id="details">
-          <ul>
-            <li>description</li>
-            <li>wind speed</li>
-            <li>humidity</li>
+          <ul class="col">
+            <li id="description">description</li>
+            <li id="wind">wind speed</li>
+            <li id="humidity">humidity</li>
           </ul>
         </div>
       </div>
