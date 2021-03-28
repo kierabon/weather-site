@@ -7,6 +7,11 @@ ul {
 img {
   size: 4px;
 }
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 #temperature {
   font-size: 60px;
 }
