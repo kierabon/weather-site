@@ -4,15 +4,22 @@ body {
 ul {
   list-style: none;
 }
+img {
+  size: 4px;
+}
 #temperature {
   font-size: 60px;
 }
 #background {
-  background-image: url("https://www.springfieldnewssun.com/resizer/R9f8qi_DOH_RF2Hz8Fy0PEXtnL0=/1066x600/cloudfront-us-east-1.images.arcpublishing.com/coxohio/L6BJ3DNILPCEN3WUJNS5NSTG2Q.jpg");
-  background-size: 550px;
-  height: 300px;
+  background-size: 700px;
+  opacity: 80%;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 #date {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
+}
+#icon {
+  size: 4px;
+  font-size: 4px;
 }
